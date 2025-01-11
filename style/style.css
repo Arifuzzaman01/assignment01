@@ -4,8 +4,10 @@
     margin: 0;
     padding: 0;
     font-family: Fira Sans;
-    /* background: #F1F1F3; */
     
+}
+body{
+    background: #F1F1F3;
 }
 header nav{
     display: flex;
@@ -139,7 +141,10 @@ font-weight: 400;
     background: #fff;
     background-image: url(../assets/quote-bg.png);
     background-position: left top;
+    background-position: 20px 4px;
     background-repeat: no-repeat;
+    padding: 0 20px 15px;
+    border-radius: 10px;
 }
 #quotes p{
 padding: 30px 0 15px;
@@ -154,4 +159,58 @@ font-size: 14px;
 font-weight: 400;
 padding: 5px 0;
 
+}
+/* news Section */
+#news-section{
+    margin-top: 50px;
+}
+#news-section .head h1{
+color: rgb(14, 14, 14);
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+margin: 18px 0;
+}
+#news-section .head p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+
+}
+#news-section .box-one{
+    display: flex;
+    justify-content: start;
+    background: #fff;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#news-section .box-one .image  img{
+    width: 350px;
+    border-radius: 15px;
+    margin: 20px;
+}
+#news-section .box-one .text-area h1{
+font-size: 30px;
+color: rgba(14, 14, 14, 0.8);
+font-weight: 700;
+line-height: 38px;
+}
+ .box-one .text-area img{
+    width: 100px;
+    margin: 10px 0;
+}
+.box-one .text-area p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 5px;
+}
+.box-one .text-area button{
+    margin-top: 9px;
+}
+#news-section .box-two{
+    padding-left: 30px;
 }
