@@ -68,6 +68,18 @@ transition: all 1s;
 main{
     margin: 0 100px;
 }
+/* pillars section */
+#card-section .pil-card{
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px;
+}
+#card-section .cardoff p{
+    padding: 0!important;
+}
+#card-section .top-title{
+    padding: 20px 0;
+}
 /* card */
 #card-section{
     margin: 65px 0;
@@ -88,7 +100,8 @@ font-weight: 700;
     border-radius: 10px;
     background: #5490F533;
     padding: 30px;
-}#card-section .card2{
+}
+#card-section .card2{
     border-radius: 10px;
     background: #C6E4D6;
     padding: 30px;
@@ -199,7 +212,7 @@ line-height: 38px;
 }
  .box-one .text-area img{
     width: 100px;
-    margin: 10px 0;
+    margin-bottom: 6px ;
 }
 .box-one .text-area p{
 color: rgba(14, 14, 14, 0.7);
@@ -208,9 +221,7 @@ font-weight: 400;
 line-height: 24px;
 padding-bottom: 5px;
 }
-.box-one .text-area button{
-    margin-top: 9px;
-}
+
 #news-section .box-two{
     padding-left: 30px;
 }
@@ -325,3 +336,4 @@ line-height: 24px;
     padding: 8px;
     width: 25px;
  }
+ 
